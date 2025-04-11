@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f3e6f0; /* Light lavender background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4b4b4b; /* Dark text for readability */
+  }
+  
+  .container {
+    max-width: 600px;
+    background: #ffffff;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #9b3e58; /* Burgundy */
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #9b3e58; /* Burgundy */
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #9b3e58;
+  }
+  
+  select, textarea, button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 2px solid #9b3e58;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  select:focus, textarea:focus, button:focus {
+    border-color: #5a1e3b; /* Darker burgundy on focus */
+  }
+  
+  textarea {
+    height: 120px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  button {
+    background: #9b3e58; /* Burgundy */
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #7a2942; /* Darker burgundy on hover */
+  }
+  
+  #micBtn {
+    background: #5a1e3b; /* Darker Burgundy */
+    margin-bottom: 15px;
+  }
+  
+  #micBtn:hover {
+    background: #7a2942; /* Darker on hover */
+  }
+  
+  #resultBox {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #result {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Slight shrink effect when clicked */
+  }
+  
